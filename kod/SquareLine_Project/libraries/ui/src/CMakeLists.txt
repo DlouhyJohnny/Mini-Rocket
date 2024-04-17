@@ -1,0 +1,24 @@
+SET(SOURCES screens/ui_Screen1.c
+    screens/ui_Screen2.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    images/ui_img_nastaveni_png.c
+    images/ui_img_baterka_podklad_mini_png.c
+    images/ui_img_sipka_vpravo_zelena_png.c
+    images/ui_img_sipka_vlevo_zelena_png.c
+    images/ui_img_sipka_vlevo_bila_png.c
+    images/ui_img_sipka_vpravo_bila_png.c
+    images/ui_img_zeleny_dilek_dole_png.c
+    images/ui_img_zeleny_dilek_stred_png.c
+    images/ui_img_zeleny_dilek_nahore_png.c
+    images/ui_img_nastaveni1_png.c
+    images/ui_img_tachometr1_png.c
+    fonts/ui_font_Big.c
+    fonts/ui_font_Digital_speed.c
+    fonts/ui_font_medium.c
+    fonts/ui_font_medium_digital.c
+    fonts/ui_font_Mega.c
+    fonts/ui_font_Speedometer.c)
+
+add_library(ui ${SOURCES})
